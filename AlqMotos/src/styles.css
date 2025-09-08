@@ -1,0 +1,16 @@
+*{
+    box-sizing: border-box;
+    margin: 0; 
+    padding: 0; 
+} 
+
+
+/* aca estoy diciendo que todas las imagenes que coloque dentro de la web van a tener un ancho del 100%*/
+
+img { 
+    width: 100%;
+}  
+
+body { 
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
