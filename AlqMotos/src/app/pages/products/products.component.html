@@ -1,1 +1,12 @@
-<p>products works!</p>
+<h1>Nuestros Productos</h1>
+<img src="/img/productos.jpg" alt="Moto">
+<section class="productos">
+    @for(producto of arrProductos; track producto.id){ 
+        <article class ="producto">
+            <img [src]="producto.imagen" [alt]="producto.nombre">
+            <h3>{{producto.nombre}}</h3>
+            <p>{{producto.descripcion}}</p>
+            <strong>{{producto.precio}}</strong>
+        </article>
+    }
+</section>

@@ -1,0 +1,10 @@
+.productos{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.producto{
+    border: 1px solid;
+    padding: 10px;
+    width: 16.5%;
+}
